@@ -7,7 +7,7 @@
 body{
     font-family: 'Roboto', sans-serif; 
     overflow: hidden;
-    background: linear-gradient(45deg, rgb(235, 192, 34), rgb(207, 116, 25), rgb(68, 73, 173), rgb(142, 68, 173));
+    background: linear-gradient(45deg, rgb(235, 192, 34), rgb(25, 159, 207), rgb(68, 73, 173), rgb(142, 68, 173));
     background-size: 400% 400%;
     animation: gradient 10s infinite;
 }
