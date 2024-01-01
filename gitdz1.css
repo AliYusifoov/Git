@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+    overflow: hidden;
+    background: linear-gradient(45deg, rgb(235, 192, 34), rgb(207, 116, 25), rgb(68, 73, 173), rgb(142, 68, 173));
+    background-size: 400% 400%;
+    animation: gradient 10s infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.main{
+    margin: 0px auto;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1%;
+    background-color: #fff;
+}
+.reg{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 25px;
+    color: rgb(241, 241, 241);
+    background-color: #2aabe4;
+    box-shadow: 0px 3px 5px 5px rgb(110, 110, 110, 0.7);
+    letter-spacing: 1px;
+}
+/* .reg p{
+    transform: scale(1.1, 1);
+} */
+form div:first-child{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+form div:first-child input{
+    width: 300px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    height: 30px;
+    border-bottom: 1px solid rgb(60, 60, 60);
+}
+.fa-solid{
+    background-color: #b2b2b2;
+    position: absolute;
+    color: #fff;
+    left: 0;
+    padding: 5px 6px;
+    font-size: 15px;
+    border-radius: 50%;
+}
+.fa-envelope{
+    top: 50px;
+}
+.fa-lock1{
+    top: 100px;
+}
+.fa-lock2{
+    top: 150px;
+    font-size: 7px;
+    padding: 10px 11px;
+}
+.fa-rotate-right{
+    left: -3px;
+    top: 148px;
+    background-color: transparent;
+    z-index: 1;
+    font-size: 23px;
+}
+.fa-phone{
+    top: 202px;
+}
+.check{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    color: #b2b2b2;
+}
+.check input, label{
+    margin-right: 10px;
+}
+button{
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 100px;
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ef1e7a;
+    box-shadow: 0px 3px 3px rgb(0, 0, 0, 0.5);
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+    z-index: 3;
+    cursor: pointer;
+}
+img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    z-index: 1;
+}
