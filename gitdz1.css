@@ -104,7 +104,7 @@ form div:first-child input{
 }
 .check input, label{
     margin-right: 10px;
-    z-index: 2;
+    z-index: 3;
 }
 button{
     width: 130px;
